@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Entrenamiento 1</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="alerts hidden"></div>
+        <form action="">
+            <input type="text" class="name" placeholder="Introduce tu nombre">
+            <input type="submit" value="Enviar" class="submit">
+        </form>
+    </div>
+
+</body>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        let form = document.querySelector('form');
+        let iName = document.querySelector('.name');
+        let iSubmit = document.querySelector('.submit');
+        let alerts = document.querySelector('.alerts');
+
+
+        iSubmit.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            if (checkName(iName.value)) {
+                alerts.innerHTML = '';
+                form.submit();
+            } else {
+                alerts.innerHTML = '';
+                alerts.classList.remove('hidden')
+                alerts.appendChild(createTextOutput(['alert-red', 'alert'], 'name-alert'));
+            }
+        })
+
+        })
+
+
+        function checkName(name) {
+            return name.match(/^[a-zA-Z]{4,}$/);
+        }
+
+        function createTextOutput(style, text) {
+            let alert = document.createDocumentFragment();
+                let p = document.createElement('p');
+                
+                style.forEach(element => {
+                    p.classList.add(element)
+                });
+
+                p.innerText = texts[text];
+
+                alert.appendChild(p);
+
+                return alert;
+            }
+
+        const texts = {
+            'name-alert': 'Formato de nombre invalido, debe tener más de tres letras, sin numeros ni simbolos.',
+        }
+</script>
+</html>
