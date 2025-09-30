@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>SELECTOR DE PROPIEDADES</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="alert alert-info col-lg-8 col-md-6 text-center">
+                <h2>SELECTOR DE PROPIEDADES</h2>
+            </div>
+            <div class="alert alert-info col-lg-4 col-md-6 text-center">
+                <h2>SELECTOR DE PROPIEDADES</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <h2 class="alert alert-warning text-center">PROPIEDADES</h2>
+                <div class="form-group">
+                    <label for="alto">ALTO CUADRO</label>
+                    <input type="range" class="form-control" value="50" id="alto">
+                </div>
+                <div class="form-group">
+                    <label for="ancho">ANCHO CUADRO</label>
+                    <input type="range" class="form-control" value="50" id="ancho">
+                </div>
+                <div class="form-group">
+                    <label for="alto">COLOR CUADRO</label>
+                    <input type="color" class="form-control" value="#e64686" id="color">
+                </div>
+                <div class="form-group">
+                    <label for="sombra">ALTO CUADRO</label>
+                    <select class="form-select" id="sombra">
+                        <option value="10px 10px 10px grey">PONER SOMBRA</option>
+                        <option selected value="">SIN SOMBRA</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="contenido">CONTENIDO</label>
+                    <textarea name="contenido" id="contenido" class="form-control" rows="6" style="resize: none;"></textarea>
+                </div>
+                <button type="button" class="btn btn-danger btn-lg btn-block" id="reset">RESET</button>
+            </div>
+            <div class="col">
+                <div class="cuadro" id="cuadro">
+                    <h4 id="texto"></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+
+            let alto = document.getElementById('alto');
+            let ancho = document.getElementById('ancho');
+            let color = document.getElementById('color');
+            let sombra = document.getElementById('sombra');
+            let contenido = document.getElementById('contenido');
+            let texto = document.getElementById('texto');
+            let reset = document.getElementById('reset');
+            let cuadro = document.getElementById('cuadro');
+
+            setCuadroStyles();
+            
+            let inputs =  [alto, ancho, color, sombra, contenido];
+
+            inputs.forEach( i => {
+                i.addEventListener('input', () => {
+                    setCuadroStyles();
+                })
+            })
+
+            reset.addEventListener('click', () => location.reload())
+
+            function setCuadroStyles() {
+                    cuadro.style.height = alto.value + '%';
+                    cuadro.style.width = ancho.value + '%';
+                    cuadro.style.backgroundColor = color.value;
+                    cuadro.style.webkitBoxShadow = sombra.value;
+                    texto.innerText = contenido.value;
+            }
+
+        })
+    </script>
+</body>
+
+</html>
