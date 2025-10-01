@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Validacion de formularios</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+    <h1 class="alert alert-primary text-primary text-center">Validacion de formularios</h1>
+
+    <div class="container-fluid bg-dark-subtle p-4 fw-semibold fs-5 col-8">
+        <form action="#" method="get" class="col-6 container-fluid" id="form">
+            <div class="mb-3 form-group">
+                <label for="user" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="user" name="user">
+            </div>
+            <div class="mb-3 form-group">
+                <label for="name" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="name" name="name">
+            </div>
+            <div class="mb-3 form-group">
+                <label for="pass" class="form-label">Contraseña</label>
+                <input type="password" class="form-control" id="pass" name="pass">
+            </div>
+            <div class="mb-3 form-group">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" name="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Telefono</label>
+                <input type="text" class="form-control" id="phone" name="phone">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check" name="check">
+                <label class="form-check-label" for="chek">Acepto las condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+        <script src="index.js"></script>
+</body>
+
+</html>
