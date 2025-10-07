@@ -1,0 +1,64 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+#menu {
+    background-color: black;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+#menu a {
+    text-decoration: none;
+    display: block;
+    float: left;
+    color: aliceblue;
+    padding: .9rem 1rem;
+    font-size: 1.3rem;
+    transition: all .3s ease;
+}
+
+#menu a:hover {
+    background-color: grey;
+    color: black;
+}
+
+#galeria {
+    overflow: auto;
+    white-space: nowrap;
+    scrollbar-color: transparent transparent;
+}
+
+#galeria img {
+    width: 500px;
+    height: 300px;
+    margin: 5px;
+}
+
+#contenido {
+    margin-top: 50px;
+    padding: 10px;
+}
+
+#oferta {
+    position: fixed;
+    width: 30rem;
+    height: 20rem;
+    background-color: grey;
+    z-index: 1;
+    top: 20%;
+    right: 2rem;
+    font: 2rem sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
