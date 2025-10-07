@@ -9,3 +9,7 @@
 - [Teoria](T02_Añadir_eliminar_e_integrar_componentes/teoria)
 - [Ejemplos de Codigo](T02_Añadir_eliminar_e_integrar_componentes/ejemplos_teoria)
 - [Entrenamientos](T02_Añadir_eliminar_e_integrar_componentes/entrenamientos)
+
+## Tema 3. Desarrollo de software basado en componentes
+- [Teoria](T03_Desarrollo_del_software_basado_en_componentes/teoria)
+- [Entrenamientos](T03_Desarrollo_del_software_basado_en_componentes/entrenamientos)
