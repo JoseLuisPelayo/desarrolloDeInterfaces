@@ -1,0 +1,218 @@
+[
+  {
+    "id": "p-1001",
+    "name": "Marqués de Murrieta Reserva 2019",
+    "description": "Marqués de Murrieta es más que una marca en el mercado internacional, es sabiduría centenaria expresada en uno de los vinos con más reconocimiento de España.",
+    "price": 28.4,
+    "img": {
+      "src": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSmzIsp2EL9H7WKvwVga5HDOeCGT4e6cRyf1ySgWxkYOeWRjT-DmyMPfnP_oFT5ZXuF0xGROz-xrdhcIvxKukcE30Jio7K5KHT10rWUT1PA640je2h7b60n",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 87% Tempranillo, 6% Graciano,5% Mazuelo, 2% Garnacha.",
+      "Grado alcohólico: 14,5% vol.",
+      "Recomendaciones de servicio: Aconsejamos servir a 13⁰C.",
+      "Proceso de Crianza: 24 meses en barricas de roble americano de 225 litros de capacidad.",
+      "Vendimia manual: Del 10 de septiembre al 8 de octubre de 2019.",
+      "Precio por Litro: 32 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1002",
+    "name": "CVNE Imperial Reserva 2018",
+    "description": "Clásico de Rioja Alta, elegante y complejo, con equilibrio entre fruta roja y tostados.",
+    "price": 24.9,
+    "img": {
+      "src": "https://alforins.com/10103-large_default/imperial-reserva-2018.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 85% Tempranillo, 10% Graciano, 5% Mazuelo.",
+      "Grado alcohólico: 14% vol.",
+      "Recomendaciones de servicio: Servir a 15–16ºC.",
+      "Proceso de Crianza: 24 meses en roble francés y americano.",
+      "Vendimia manual: Finales de septiembre de 2018.",
+      "Precio por Litro: 33 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1003",
+    "name": "La Rioja Alta Viña Ardanza 2016",
+    "description": "Referencia histórica con larga crianza, notas especiadas y tanino pulido.",
+    "price": 29.9,
+    "img": {
+      "src": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/v/i/vina-ardanza_1.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 80% Tempranillo, 20% Garnacha.",
+      "Grado alcohólico: 13,5% vol.",
+      "Recomendaciones de servicio: 16ºC y decantación ligera.",
+      "Proceso de Crianza: 36 meses en roble americano.",
+      "Vendimia manual: Octubre de 2016.",
+      "Precio por Litro: 39 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1004",
+    "name": "Protos Reserva 2017",
+    "description": "Ribera del Duero potente y sedoso, con fruta negra madura y toques de cacao.",
+    "price": 32.5,
+    "img": {
+      "src": "https://www.vinosbaco.com/wp-content/uploads/2023/06/10603_ProtosGranReserva.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Tinta del País (Tempranillo).",
+      "Grado alcohólico: 14,5% vol.",
+      "Recomendaciones de servicio: 16–18ºC.",
+      "Proceso de Crianza: 18 meses en roble francés y 12 en botella.",
+      "Vendimia manual: Segunda quincena de septiembre de 2017.",
+      "Precio por Litro: 43 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1005",
+    "name": "Pago de Carraovejas Crianza 2020",
+    "description": "Expresión moderna de Ribera, cremoso y aromático, con final largo.",
+    "price": 34.0,
+    "img": {
+      "src": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/a/pago-carraovejas.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 92% Tinto Fino, 4% Cabernet Sauvignon, 4% Merlot.",
+      "Grado alcohólico: 15% vol.",
+      "Recomendaciones de servicio: 16ºC.",
+      "Proceso de Crianza: 12 meses en roble francés y americano.",
+      "Vendimia manual: Septiembre de 2020.",
+      "Precio por Litro: 45 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1006",
+    "name": "Mar de Frades Albariño 2023",
+    "description": "Blanco atlántico de Rías Baixas, cítrico, salino y muy fresco.",
+    "price": 15.9,
+    "img": {
+      "src": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/a/mar-de-frades_1.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Albariño.",
+      "Grado alcohólico: 12,5% vol.",
+      "Recomendaciones de servicio: 8–10ºC.",
+      "Proceso de Crianza: Sobre lías finas durante 4–6 meses.",
+      "Vendimia manual: Primera quincena de septiembre de 2023.",
+      "Precio por Litro: 21 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1007",
+    "name": "Godello As Sortes 2022",
+    "description": "Valdeorras complejo y mineral, con volumen y precisión aromática.",
+    "price": 32.0,
+    "img": {
+      "src": "https://alforins.com/6474-large_default/as-sortes-2022.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Godello.",
+      "Grado alcohólico: 13,5% vol.",
+      "Recomendaciones de servicio: 10–12ºC.",
+      "Proceso de Crianza: Fermentación y crianza en roble francés.",
+      "Vendimia manual: Finales de septiembre de 2022.",
+      "Precio por Litro: 43 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1008",
+    "name": "Muga Reserva 2019",
+    "description": "Rioja con elegancia clásica: fruta roja, vainilla y sutil balsámico.",
+    "price": 22.5,
+    "img": {
+      "src": "https://santacecilia.es/wp-content/uploads/2013/09/muga_reserva_magnum.webp",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: Tempranillo, Garnacha, Mazuelo, Graciano.",
+      "Grado alcohólico: 14% vol.",
+      "Recomendaciones de servicio: 15–16ºC.",
+      "Proceso de Crianza: 24 meses en roble de la casa.",
+      "Vendimia manual: Septiembre–octubre de 2019.",
+      "Precio por Litro: 30 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1009",
+    "name": "Teso La Monja Romanico 2021",
+    "description": "Toro frutal y amable, con buena concentración y tanino redondo.",
+    "price": 12.9,
+    "img": {
+      "src": "https://www.grandcruwijnen.nl/media/catalog/product/cache/b5a5d042d52462d78f28fe589cea68a7/2/0/2021_Teso_La_Monja_Romanico.png",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Tinta de Toro.",
+      "Grado alcohólico: 14,5% vol.",
+      "Recomendaciones de servicio: 15–16ºC.",
+      "Proceso de Crianza: 6 meses en roble.",
+      "Vendimia manual: Septiembre de 2021.",
+      "Precio por Litro: 17 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1010",
+    "name": "Lustau Amontillado Los Arcos",
+    "description": "Jerez complejo, frutos secos, salino y con larguísimo posgusto.",
+    "price": 13.5,
+    "img": {
+      "src": "https://www.closdesmillesimes.com/client/cache/produit/600_______topcenter_lustau-am_15796.jpeg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Palomino Fino.",
+      "Grado alcohólico: 18,5% vol.",
+      "Recomendaciones de servicio: 12–14ºC.",
+      "Proceso de Crianza: Criaderas y solera, biológica y oxidativa.",
+      "Embotellado: Lote continuo, envejecimiento medio 8–10 años.",
+      "Precio por Litro: 18 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1011",
+    "name": "Enate Cabernet Sauvignon–Merlot 2019",
+    "description": "Somontano moderno, con notas de cassis, ciruela y toque especiado.",
+    "price": 11.8,
+    "img": {
+      "src": "https://cdn.vinissimus.com/img/unsafe/p385x/plain/local:///prfmtgrande/vi/enc5022_anv800.png",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 50% Cabernet Sauvignon, 50% Merlot.",
+      "Grado alcohólico: 14% vol.",
+      "Recomendaciones de servicio: 15–16ºC.",
+      "Proceso de Crianza: 6–9 meses en roble.",
+      "Vendimia manual: Septiembre de 2019.",
+      "Precio por Litro: 16 €/Litro"
+    ]
+  },
+  {
+    "id": "p-1012",
+    "name": "Pesquera Crianza 2020",
+    "description": "Clásico de Ribera del Duero: fruta negra madura, toques de vainilla y final amplio.",
+    "price": 21.9,
+    "img": {
+      "src": "https://www.vinoseleccion.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/s/m/sm-mayo-2023-tintopesquera_2.jpg",
+      "alt": "Imagen del producto"
+    },
+    "characteristics": [
+      "Variedades de uva: 100% Tempranillo (Tinta del País).",
+      "Grado alcohólico: 14% vol.",
+      "Recomendaciones de servicio: 15–16ºC, abrir 30 minutos antes.",
+      "Proceso de Crianza: 14 meses en barricas de roble americano.",
+      "Vendimia manual: Finales de septiembre de 2020.",
+      "Precio por Litro: 29 €/Litro"
+    ]
+  }
+]

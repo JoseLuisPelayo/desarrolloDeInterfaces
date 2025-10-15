@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leer Json</title>
+</head>
+<body>
+    <table id="alumnos" style="width: 100%;">
+
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Edad</th>
+        </tr>
+
+    </table>
+
+
+    <p id="salida">
+
+    </p>
+    <script>
+        const fichero = '{"alumnos": [{"nombre":"Pedrito", "apellidos": "Pérez López", "edad": 23}, {"nombre":"luisa", "apellidos": "León Astorga", "edad": 28}, {"nombre":"Ana", "apellidos": "Rúiz Martín", "edad": 33}]}';
+        const fic = {nombre: "pepito", telf: "+346543345342"};
+
+        const ficheroJson = JSON.parse(fichero);
+        const stringFic = JSON.stringify(fic);
+
+
+        console.log(stringFic);
+
+        const fragment = document.createDocumentFragment();
+
+        ficheroJson.alumnos.forEach(element => {
+            console.log(element.nombre + ' ' + element.apellidos)
+
+            const row = document.createElement('tr');
+
+            const nombre = document.createElement('td');
+            nombre.innerText = element.nombre;
+
+            const apellido = document.createElement('td');
+            apellido.innerText = element.apellidos;
+
+            const edad = document.createElement('td');
+            edad.innerText = element.edad;
+
+            row.append(nombre, apellido, edad);
+
+            fragment.appendChild(row);
+        });
+
+        document.getElementById('alumnos').appendChild(fragment);
+
+    </script>
+</body>
+</html>
