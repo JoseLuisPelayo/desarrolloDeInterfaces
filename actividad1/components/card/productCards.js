@@ -168,6 +168,7 @@ function createCollapse(title, characteristicsList, collapseId) {
   const divCollapseContainer = document.createElement('div');
   divCollapseContainer.id = collapseId;
   divCollapseContainer.classList.add("collapse");
+  divCollapseContainer.setAttribute("data-bs-parent", "#products");
 
   const divCollapseBody = document.createElement('div');
   divCollapseBody.classList.add("card", "card-body", "text-bg-dark");

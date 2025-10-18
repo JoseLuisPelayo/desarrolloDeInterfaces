@@ -39,8 +39,22 @@ document.addEventListener('DOMContentLoaded', async () => {
       e es el objeto con el que se crea la card
       Clono el nodo para poder borrarlo posteriormente sin borrar el original que seguira mostrandose, 
       si no hacemos esto y simplemente le pasamos el nodo se borrara tambien el que esta fuera del modal,
-      ya que hara referencia directamente a el. */
+      ya que hara referencia directamente a el.
+      */
       const modalCard = document.getElementById(e.id).cloneNode(true);
+
+      //En estas lineas lo que hago es independizar los collapses para que no se abra y se cierre tambien el que esta en el
+      // contenerdor principal
+      modalCard.id = modalCard.id.concat('-modal');
+      const modalCardMoreBtn = modalCard.querySelector('.card__controls__more');
+
+      modalCardMoreBtn.setAttribute('data-bs-target', "#collapse-".concat(modalCard.id));
+      modalCardMoreBtn.setAttribute('aria-controls', 'collapse-'.concat(modalCard.id));
+      modalCardMoreBtn.classList.replace('btn-outline-secondary', 'btn-secondary');
+
+      modalCard.querySelector('.collapse').id += '-modal';
+      //Y oculto el boton decomprar de la trageta
+      modalCard.querySelector('.card__controls__buy').style.display = 'none';
 
       modal.style.display = modal.style.display !== 'block' ? 'block' : 'none';
       modalCard.classList.remove("col-xl-4", "col-lg-6");
@@ -95,7 +109,5 @@ document.addEventListener('DOMContentLoaded', async () => {
     quantityInput.value = '';
   }
 });
-
-
 
 
