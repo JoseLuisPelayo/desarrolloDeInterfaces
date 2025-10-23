@@ -149,7 +149,6 @@ function createCardControls(collapseId, setBuyButtonFunction) {
   return divControlsContainer;
 }
 
-
 /*   
   Genera un collapse compuesto de un título (h5) y una lista desordenada de características.
 
